@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .js {
+  padding-left: 25px;
+}
+.b {
+  padding-left: 60px;
+}
+.c {
+  padding-left: 25px;
+}
+.d{
+    padding-left: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="d">
+    <ul style="list-style-type: disc">
+    </ul>
+    <li>
+        Programming Language
+    </li>
+        </ul></div>
+        <div class="js" style="line-height:0%">
+            <ul style="list-style-type: circle">
+                <li>JavaScript</li>
+        </div>
+    <div class="b">
+        <ol type="a" style="line-height:150%">
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue.js</li> 
+    </ol>
+    </div>
+    <div class="js" style="line-height:0%">  
+        <ul style="list-style-type: circle">
+            <li>Python</li>
+    </div>
+
+    <div class="b">
+        <ol type="a" style="line-height:150%">
+        <li>Django Framework</li>
+        <li>Flask Framework</li></ol>
+</div>
+<div class="js" style="line-height:0%">  
+    <ul style="list-style-type: circle">
+        <li>Java</li>
+</div>
+<div class="b">
+    <ol type="a" style="line-height:150%">
+    <li>Spring</li>
+    <li>Maven</li>
+    <li>Hibernate</li> 
+</ol>
+</div>
+<ul style="list-style-type: disc">
+</ul>
+<div class="d" style="line-height:0%">
+<li>
+    Database
+</li></div>
+    </ul>
+    <div class="c" style="line-height:150%">
+        <ol style="list-style-type: circle">
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li> 
+</div>
+</body>
+</html>
