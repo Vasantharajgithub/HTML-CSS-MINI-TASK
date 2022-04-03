@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.container {
+    position: absolute;            
+          left: 50%;
+          right: 50%;
+            
+}
+
+.btn{
+    
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body style="background-color:#dadada">
+    <div class="container">
+    <label>Button</label><br>
+<button class="btn">Click Me!</button><br>
+<label>Checkbox</label><br>
+<input type="checkbox"><br>
+<label>Color Selector</label><br>
+<input type="color"><br>
+<label>Date</label><br>
+<input type="date"><br>
+<label>Date & Time</label><br>
+<input type="datetime-local"><br>
+<label>Email</label><br>
+<input type="email"><br>
+<label>File Upload</label><br>
+<input type="file"><br>
+<label>Hidden</label><br>
+<input type="hidden"><br>
+<label>Image</label><br>
+<img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="Picture" width="500" height="600"><br>
+<label>Month</label><br>
+<input type="month"><br>
+<label>Number</label><br>
+<input type="number"><br>
+<label>Password</label><br>
+<input type="password"><br>
+<label>Radio Button</label><br>
+<input type="radio"><br>
+<label>Range</label><br>
+<input type="range"><br>
+<label>Reset</label><br>
+<input type="reset"><br>
+<label>Search</label><br>
+<input type="search"><br>
+<label>Submit</label><br>
+<input type="submit"><br>
+<label>Telephone</label><br>
+<input type="tel"><br>
+<label>Text</label><br>
+<input type="text"><br>
+<label>Time</label><br>
+<input type="time"><br>
+<label>url</label><br>
+<input type="url"><br>
+<label>Week</label><br>
+<input type="week"><br>
+</div>
+</body>
+</html>
