@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+           .container {
+           border: 3px solid red ;
+            border-radius: 50px;
+            width: 900px;
+            height: 700px;
+            position: absolute;            
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+             }
+        .fn{
+        position: absolute;
+        left: 6%;
+        top: 17%;
+         width: 400px;
+         height: 50px;
+         }
+.fn input{
+    width: 78%;
+    height: 60%;
+    background: transparent;
+    border: 2px solid #2ecc71;
+    border-radius:10px;
+    outline: none;
+    color: white;
+}
+
+.fn label{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    color: #FF7A59;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    font-style: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: top 0.3s;
+}
+
+.fn input:focus ~ label {
+    top: -22%;
+    background-color: #222e3b;
+
+}
+
+.ln{
+    position: absolute;
+    top: 0%;
+    left: 117%;
+    width: 400px;
+    height: 50px;       
+}
+
+.ad{
+    position: absolute;
+    top: 180%;
+    width: 1000px;
+    height: 50px;
+}
+
+
+.ad label{
+    position: absolute;
+    left: 1%; 
+}
+
+.city{
+    position: absolute;
+    top: 350%;
+    width: 270px;
+    height: 50px;
+}
+
+.state{
+    position: absolute;
+    top: 350%;
+    left: 70%;
+    width: 270px;
+    height: 50px;
+}
+
+.zip{
+    position: absolute;
+    top: 350%;
+    left: 142%;
+    width: 270px;
+    height: 50px;
+}
+
+.sub{
+        position: absolute;
+        left: 1%;
+        top: 520%;
+        color: #FF7A59;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    font-style: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+        
+         }
+
+.cb1{
+    position: absolute;
+    left: 3%;
+    top: 505%;    
+}
+
+.fy{
+    position: absolute;
+        left: 50%;
+        top: 522%;
+        color: #FF7A59;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 22px;
+}
+
+.cb2{
+    position: absolute;
+    left: 62%;
+    top: 505%;
+}
+
+.sy{
+    position: absolute;
+    right: -50%;
+    top: 522%;
+    color: #FF7A59;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 22px;
+}
+
+.Send{
+    position: absolute;
+    left:1%;
+    top: 620%;
+    color: #FF7A59;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.cb3{
+    position: absolute;
+    left: -32%;
+    top: 690%;
+    transform: scale(0.7);
+}
+
+.cz{
+    position: absolute;
+    left: 13%;
+    top: 705%;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    color: #FF7A59;
+    font-style: bold;
+    font-size: 18px;
+
+}
+
+.cb4{
+    position: absolute;
+    left: -32%;
+    top: 760%;
+    transform: scale(0.7);
+}
+
+.fz{
+    position: absolute;
+    left: 13%;
+    top: 780%;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    color: #FF7A59;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.cb5{
+    position: absolute;
+    left: -32%;
+    top: 835%;
+    transform: scale(0.7);
+}
+
+.caz{
+    position: absolute;
+    left: 13%;
+    top: 855%;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    color: #FF7A59;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.employee{
+    position: absolute;
+    left: 1%;
+    top: 930%;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    color: #FF7A59;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.r1{
+    position: absolute;
+    left: -33%;
+    top: 990%;
+    transform: scale(0.6);
+}
+
+.s1{
+    position: absolute;
+    left: 13%;
+    top: 1010%;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    color: #FF7A59;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.r2{
+    position: absolute;
+    left: -33%;
+    top: 1050%;
+    transform: scale(0.6);
+}
+
+.ob{
+    position: absolute;
+    left: 13%;
+    top: 1070%;
+    font-family: "San Francisco","Helvetica Neue",Helvetica, sans-serif;
+    color: #FF7A59;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.hd{
+    
+    position: relative;
+    top: 1%;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 22px;     
+}
+
+.button{
+    position: absolute;
+    display: inline-block;
+    margin: 20px;
+    top: 950%;
+    left: 50%;
+    
+}
+
+.button a{
+  color:rgb(255, 255, 255);
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:19px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:10px 30px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active{
+  top:10px;
+  background-color:#F78900;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.reset{
+    position: absolute;
+    display: inline-block;
+    margin: 20px;
+    top: 950%;
+    left: 103%;
+    
+}
+
+.reset a{
+  color:rgb(255, 255, 255);
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:19px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:10px 30px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.reset a:active{
+  top:10px;
+  background-color:#F78900;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.reset:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+.container:hover{
+    
+  transition: 0.5s ease-in-out;
+  background: #222e3b;
+}
+
+
+
+
+    </style>
+</head>
+<body style="background-color:#2D3E50">
+    <a href="table.html">
+        <button>Table Design</button>
+    </a>
+
+    <a href="contact us.html">
+        <button>Contact Us</button>
+    </a>
+
+    <a href="programming languages.html">
+        <button>Programming Languages</button>
+    </a>
+
+    <form id = "myForm" form action="/action_page.php">
+    
+    <div class="container">
+        <div class="hd">
+            <h1>Yes! I want to subscribe to <i>Mag-O-Zine</i></h1>
+        </div>
+        
+        <div class="fn">
+            <input type="text" required><br>
+            <label for="">First Name</label>
+            
+                  <div class="ln">
+                <input type="text" required><br>
+                <label for="">Last Name</label>
+                </div>
+
+                <div class="ad">
+                    <input type="text" required><br>
+                    <label for="">Address</label>
+                    </div>
+
+                    <div class="city">
+                        <input type="text" required><br>
+                        <label for="">City</label>
+                        </div>
+                    
+                        <div class="state">
+                            <input type="text" required><br>
+                            <label for="">State</label>
+                            </div>      
+
+                            <div class="zip">
+                                <input type="number" required><br>
+                                <label for="zip">Zip</label>
+                                </div> 
+
+                                <div class="sub">
+                                   Subcribe for: 
+                                </div>
+                                   
+<input type="checkbox" class="cb1" name="sub" checked="checked">
+<div class="fy">
+    1 year ($19.95)
+</div>
+
+<div>
+<input type="checkbox" class="cb2" name="sub">
+<div class="sy"> 2 years ($35.00)
+</div>    
+</div>
+<div class="Send">
+    Send me more information about :
+</div>
+
+
+    <input type="checkbox" class="cb3" checked="checked">
+    <div class="cz">Computer-Zine</div>
+    <input type="checkbox" class="cb4">
+    <div class="fz">Fishing-Zine</div>
+    <input type="checkbox" class="cb5" checked="checked">
+    <div class="caz">Cat-O-Zine</div>
+
+
+
+   
+
+    <div ontouchstart="">
+        <div class="button">
+          <a href="#">Submit</a>
+        </div>
+      </div>
+
+      <div ontouchstart="">
+        <div class="reset">
+           
+          <a href="#">&nbsp;Reset&nbsp;</a>
+        </div>
+      </div>
+
+
+      
+</div>
+</div>
+</form>
+
+
+        
+
+
+</div>
+</div>
+</body>
+</html>
