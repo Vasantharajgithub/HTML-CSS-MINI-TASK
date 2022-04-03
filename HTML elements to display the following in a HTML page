@@ -8,19 +8,28 @@
 <style>
     .js {
   padding-left: 25px;
+  color: white;
 }
 .b {
   padding-left: 60px;
+  color: white;
 }
 .c {
   padding-left: 25px;
+  color: white;
 }
 .d{
+
     padding-left: 15px;
+    color: white;
+}
+.h{
+    padding-left: 1px;
+    color: white;
 }
 </style>
 </head>
-<body>
+<body style="background-color:black">
     <div class="d">
     <ul style="list-style-type: disc">
     </ul>
@@ -72,6 +81,11 @@
         <li>Spring</li>
         <li>Maven</li>
         <li>Hibernate</li> 
+</div>
+<div class="h">
+    <ul style="list-style-type:disc">
+    <li><mark>HTML & CSS is awesome</mark></li>
+    </ul>
 </div>
 </body>
 </html>
